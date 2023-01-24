@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+    <div class="inputs">
+        <form>
+            
+            <input  placeholder="Enter Description ..." type="text" id="description">
+            <button type="button" id="generate-button">GO</button>
+        </form>
+    </div>
+    <div class="res">
+        <div class="single-res"> 
+        <div id="qr-code"></div>
+        <p id="description-text"></p>
+        </div>
+    </div>
+
+   
+
+    <script src="./qrcode.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
